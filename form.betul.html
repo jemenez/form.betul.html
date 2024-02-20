@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    body {
+        min-height: 100vh;
+        background-color: white;
+        padding: 60px;
+        margin-left: 50px;
+    }
+    header {
+        padding: 18px 0;
+    }
+     header > .container {
+        background-color: #2A2C2E;
+        width: 1200px;
+        height: 96px;
+        margin: 0 auto;
+        border-radius: 16px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 30px;
+    }
+    .container2 {
+      padding: 40px;
+      
+    }
+    .input-box {
+        position: relative;
+        margin: 30px 0;
+        
+       
+
+    }
+    .input-box > input {
+        width: 580px;
+        height: 1px;
+        background: transparent;
+        outline: none;
+        border-bottom: 2px solid white;
+        
+        
+        
+    }
+    .container2 {
+        background-color: #2A2C2E;
+        border-radius: 16px;
+        padding-left: 40px;
+        width: 1200px;
+        
+    }
+    .input-one > input {
+    align-items: center;
+    padding-left: 30px;
+      
+    }
+    footer {
+            background-color: #ffffff;
+            color: white;
+            padding-top: 16px;
+        }
+        footer > .container {
+            background-color: #2A2C2E;
+            width: 1200px;
+            height: auto;
+            margin: 0 auto;
+            
+        }
+
+        footer > .container > .top {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 32px;
+        }
+        footer > .container > .button {
+            background-color: #00000080;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+        }
+        .btn {
+            background-color: #F4CE47;
+            width: 675px;
+            height: 56px;
+            font-weight: bold;
+            border-radius: 16px;
+            margin-top: 20px;
+        }
+      
+    
+
+    
+</style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="left">
+                <img src= "logogbung.svg" alt="logogbung"; /> 
+            </div>
+        </div>
+        </header>
+        <section class="container2">
+            <header2 style="color: white; font-weight: bold;">REGISTER YOUR BOOK</header2>
+            <form method=”get” action=”url_api”>
+                <div class="all">
+                <div class="input-box">
+                        <label style="color: white;">Book Details</label>
+                        <input type="text" />
+
+                        <div class="input-one">
+                            <label style="color: white;">Title</label>
+                            <input style="background-color: white; width: 572px; height: 56px; border-radius: 16px; margin-top: 20px; margin-left: 65px;" type="text" placeholder="title here. E.g. Harry Potter and The Fantastic Bootcamp" />
+                        </div>
+                        <div class="input-one">
+                            <label style="color: white;">Gentre</label>
+                            <input style="background-color: white; width: 572px; height: 56px; border-radius: 16px; margin-top: 20px; margin-left: 50px;" type="text" placeholder="Your book genre here. E.g. Fantasy" />
+                        </div>
+                        <div class="input-one">
+                            <label style="color: white;">Author</label>
+                            <input style="background-color: white; width: 572px; height: 56px; border-radius: 16px; margin-top: 20px; margin-left: 50px;" type="text" placeholder="Your book author here. E.g. J. K. Rowling" />
+                        </div>
+                        <div class="input-one">
+                            <label style="color: white;">Publisher</label>
+                            <input style="background-color: white; width: 572px; height: 56px; border-radius: 16px; margin-top: 20px; margin-left: 35px;" type="text" placeholder="Publisher of the book. E.g. Pustaka Melang" />
+                        </div>
+                        <div class="input-one">
+                            <label style="color: white;">Year Published</label>
+                            <input style="background-color: white; width: 572px; height: 56px; border-radius: 16px; margin-top: 20px;" type="text" placeholder="1994" />
+                    </div>
+                    <div class="input-one">
+                        <label style="color: white;">Availability</label>
+                        <input style="color: white; margin-left: 27px;" type="radio" name="avaibility" value="Online">
+                        <label style="color: white;">Online</label>
+                        <input style="color: white; margin-left: 27px;" type="radio" name="avaibility" value="Online">
+                        <label style="color: white;">In Store</label>
+                        <input style="color: white; margin-left: 27px; margin-top: 20px;" type="radio" name="avaibility" value="Online">
+                        <label style="color: white;">Online & In Store</label>
+                        
+                </div>
+                <div class="input-one">
+                    <label style="color: white;">Pages</label>
+                    <input style="background-color: white; width: 572px; height: 56px; border-radius: 16px; margin-top: 20px; margin-left: 60px;" type="text" placeholder="514" />
+            </div>
+            <div class="input-one">
+                <label style="color: white;">Language</label>
+                <input style="background-color: white; width: 572px; height: 56px; border-radius: 16px; margin-top: 20px; margin-left: 35px;" type="text" placeholder="Language used in the book. E.g. English" />
+        </div>
+        <div class="input-box">
+            <label style="color: white;">Register Details</label>
+            <input style="font-size: 14px; width: 575px;" type="text" />
+            <div class="input-one">
+                <label style="color: white;">Name</label>
+                <input style="background-color: white; width: 572px; height: 56px; border-radius: 16px; margin-top: 20px; margin-left: 60px;" type="text" placeholder="Your name. E.g. Lannah Yeon" />
+            </div>
+            <div class="input-one">
+                <label style="color: white;">Email</label>
+                <input style="background-color: white; width: 572px; height: 56px; border-radius: 16px; margin-top: 20px; margin-left: 60px;" type="text" placeholder="Your email. E.g. l.yeon@email.com" />
+            </div>
+            <div class="input-one">
+                <input style="color: white; margin-right: 27px; margin-top: 20px;" type="checkbox" name="avaibility" value="Online">
+                <label style="color: white; margin-left: 30px;">I hereby agree to follow all rules and confirmed that all details are accurate</label>
+
+                    </div>
+                    <div>
+                    <button type="submit" class="btn">SAVE YOUR BOOK</button>
+                </div>
+            </div>
+        </div>
+            </form>
+        </section>
+        <footer>
+            <div class="container">
+             <div class="top">
+                <img src="logogbung.svg" alt="logo" />
+                <img src="Social media2.svg" alt="social media" />
+             </div>
+             <div class="button">
+              <div>
+              <span>Terms and conditions</span>
+              <span>Privacy policy</span>
+              </div>
+              <div>
+                <span>+44 1332 412251</span>
+                <span>support@bbookshelf.com</span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</body>
+</html>
